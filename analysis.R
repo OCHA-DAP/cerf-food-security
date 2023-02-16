@@ -5,7 +5,6 @@ library(lubridate)
 library(countrycode)
 library(httr)
 library(readxl)
-library(pdftools)
 
 ##################
 #### IPC DATA ####
@@ -14,6 +13,9 @@ library(pdftools)
 df_ipc <- ipc_get_population()$country
 
 df_ipc_scores <- df_ipc %>%
+  filter(
+    country != "LAC"
+  ) %>%
   mutate(
     analysis_year = year(analysis_period_start),
     phase1_pct = phase1_num / estimated_population,
