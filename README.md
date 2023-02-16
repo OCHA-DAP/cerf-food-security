@@ -59,15 +59,15 @@ average with the following weights:
 
 | Indicator         | Weight          |
 | ----------------- | --------------- |
-| **Food security** | **$\bf{85}\%$** |
-| Scale             | $45\%$          |
-| Prevalence        | $15\%$          |
-| Protected crises  | $15\%$          |
-| Acute crises      | $10\%$          |
-| **INFORM**        | **$\bf{15}\%$** |
-| Climate Change    | $5\%$           |
-| Severity          | $5\%$           |
-| Risk              | $5\%$           |
+| **Food security** | **$\bf{85}\\%$** |
+| Scale             | $45\\%$          |
+| Prevalence        | $15\\%$          |
+| Protected crises  | $15\\%$          |
+| Acute crises      | $10\\%$          |
+| **INFORM**        | **$\bf{15}\\%$** |
+| Climate Change    | $5\\%$           |
+| Severity          | $5\\%$           |
+| Risk              | $5\\%$           |
 
 ## CSV structure
 
